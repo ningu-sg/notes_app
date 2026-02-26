@@ -1,0 +1,20 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Node modules (if you ever use npm later)
+node_modules/
+
+# Environment files
+.env
+
+# Temporary files
+*.tmp
+*.swp
