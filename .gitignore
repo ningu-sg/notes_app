@@ -1,20 +1,60 @@
+ # =========================
+# Node Modules
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+
+# =========================
+# Build Folders
+# =========================
+dist/
+build/
+
+# =========================
+# React
+# =========================
+frontend/node_modules/
+frontend/build/
+
+# =========================
+# Backend
+# =========================
+backend/node_modules/
+
+# =========================
 # OS Files
+# =========================
 .DS_Store
 Thumbs.db
 
-# Editor folders
+# =========================
+# Editor / IDE
+# =========================
 .vscode/
 .idea/
 
-# Log files
-*.log
+# =========================
+# Misc
+# =========================
+coverage/
+.cache/
 
-# Node modules (if you ever use npm later)
-node_modules/
 
-# Environment files
-.env
 
-# Temporary files
-*.tmp
-*.swp
